@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import joblib
-import pickle
+import joblib
+#import pickle
 
 from sklearn.ensemble import ExtraTreesClassifier
 
@@ -20,8 +20,8 @@ def get_prediction(data,model):
     """
     return model.predict(data)
 
-#model = joblib.load(r'../models/RTA_model.joblib')
-model = pickle.load(open('../models/RTA_model.pkl', 'rb'))
+model = joblib.load(r'../models/RTA_model.joblib')
+#model = pickle.load(open('../models/RTA_model.pkl', 'rb'))
 
 st.set_page_config(page_title="Accident Severity Prediction Module",
                    page_icon="🚧", layout="wide")
