@@ -1,10 +1,9 @@
 import streamlit as st
-import numpy as np
-import joblib
+#import numpy as np
+#import joblib
 
 #from prediction import get_prediction, ordinal_encoder
-
-model = joblib.load(r'../models/RTA_model.joblib')
+#model = joblib.load(r'../models/RTA_model.joblib')
 
 st.set_page_config(
     page_title="Road Traffic Severity Clasification",
