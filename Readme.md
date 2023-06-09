@@ -27,5 +27,6 @@
     <p>Streamlit application</p>
 </ul>
 <hr>
-<p>Horacio Morales González
-
+<p>Horacio Morales González</p>
+[![Twitter: LachoMorales](https://img.shields.io/twitter/follow/LachoMorales?style=social)](https://twitter.com/LachoMorales)
+[![Linkedin: thaianebraga](https://img.shields.io/badge/-hmorales1970-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hmorales1970/)](https://www.linkedin.com/in/hmorales1970/)
